@@ -19,7 +19,7 @@ h1{
 .btns{
     display: flex;
     flex-direction: row;
-    width: 500px;
+    width: 700px;
     height: 50px;
     justify-content: space-evenly;
 }
@@ -30,6 +30,30 @@ button{
     background-color: white;
     box-shadow: 5px 5px;
     outline: none;
+}
+
+.colorAndPrompt{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-size: 20px;
+    text-shadow: 2px 2px white;
+}
+
+#color{
+    margin-top: 5px;
+    margin-bottom: -20px;
+    width: 80px;
+    height: 30px;
+    box-shadow: 3px 3px;
+}
+
+#color:hover{
+    transform: scale(1.1);
+}
+
+#color:active{
+    transform: scale(1.2);
 }
 
 button:hover{
